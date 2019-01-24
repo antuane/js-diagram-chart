@@ -36,10 +36,8 @@ import JsDiagramChart from 'js-diagram-chart';
 ```
 ## Example
 
-  1. Import antuane-chart.js in your html page.
-  2. Create element canvas with an id.
 
-  Example:
+  Example in HTML:
 
     ```html
     <canvas id="mycanvas" width="640" height="480">
@@ -47,12 +45,9 @@ import JsDiagramChart from 'js-diagram-chart';
     </canvas>
     ```
 
-  3. Call AntuaneChart function after canvas element and use JSON to data
-
-  Example:
+  Example in JS:
 
     ```js
-    <script type="text/javascript">
       var dataExample = {
         diagrams: [
         {id: 1, text: "DIAGRAM 01", color: "#999999", bgColor: "#330000"},
@@ -103,7 +98,6 @@ import JsDiagramChart from 'js-diagram-chart';
       //chart.resetZoom();
       //chart.update(dataExample);
 
-    </script>
     ```
 
 ### Live Example
