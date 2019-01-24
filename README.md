@@ -31,7 +31,11 @@ import JsDiagramChart from "js-diagram-chart";
 
 ```
 
-## Example
+## Live Example
+
+http://antuane.github.io/js-diagram-chart/example/dist/
+
+## Code Example
 
 Example in HTML:
 
