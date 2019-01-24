@@ -23,7 +23,7 @@ In Node.js:
 
 ```js
  
-var JsDiagramChart = require("js-diagram-chart").default;
+let JsDiagramChart = require("js-diagram-chart").default;
 
 // Or  
 
@@ -46,7 +46,7 @@ Example in JS:
 ```js
 import JsDiagramChart from "js-diagram-chart";
 
-var dataExample = {
+const dataExample = {
   diagrams: [
     { id: 1, text: "DIAGRAM 01", color: "#999999", bgColor: "#330000" },
     { id: 2, text: "DIAGRAM 02", color: "#999999", bgColor: "#003300" },
@@ -88,7 +88,7 @@ var dataExample = {
   }
 };
 
-var chart = new JsDiagramChart(dataExample);
+let chart = new JsDiagramChart(dataExample);
 
 //OTHERS METHODS
 
