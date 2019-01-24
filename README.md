@@ -13,12 +13,6 @@ $ ./dist/js-diagram-chart.js
 
 ## Installation
 
-In a browser:
-
-```html
-<script src="js-diagram-chart.js"></script>
-```
-
 Using npm:
 
 ```shell
@@ -28,11 +22,13 @@ $ npm i --save js-diagram-chart
 In Node.js:
 
 ```js
-// Usign require.
+ 
 var JsDiagramChart = require("js-diagram-chart").default;
 
-// Or alternative
+// Or  
+
 import JsDiagramChart from "js-diagram-chart";
+
 ```
 
 ## Example
