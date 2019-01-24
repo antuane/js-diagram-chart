@@ -33,7 +33,7 @@ import JsDiagramChart from "js-diagram-chart";
 
 ## Live Example
 
-http://antuane.github.io/js-diagram-chart/example/
+http://antuane.github.io/js-diagram-chart/example/index.html
 
 ## Code Example
 
