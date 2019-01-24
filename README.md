@@ -33,7 +33,7 @@ import JsDiagramChart from "js-diagram-chart";
 
 ## Live Example
 
-http://antuane.github.io/js-diagram-chart/example/dist/
+http://antuane.github.io/js-diagram-chart/example/
 
 ## Code Example
 
@@ -47,8 +47,27 @@ Example in HTML:
 
 Example in JS:
 
+Modules:
+
 ```js
+
 import JsDiagramChart from "js-diagram-chart";
+
+//OR
+
+const JsDiagramChart = require('js-diagram-chart').default;
+
+```
+
+Script import:
+
+```html
+<script src="../dist/js-diagram-chart.js"></script>
+```
+
+Example Data:
+
+```js
 
 const dataExample = {
   diagrams: [
@@ -83,20 +102,22 @@ const dataExample = {
     arrowWidth: 8,
     lineWidth: 2,
     lineDiff: true,
-    //lineColor: "#000000", // OPTIONAL
-    //hiddenBg: true, // OPTIONAL
     fontFamily: "Arial",
     fontSize: 12,
     autoSize: true,
     mouseEvents: true
+    //lineColor: "#000000", // OPTIONAL
   }
 };
 
 let chart = new JsDiagramChart(dataExample);
 
-//OTHERS METHODS
+// window.addEventListener("resize", function() { chart = new JsDiagramChart(dataExample) });
 
-//chart.addZoom(-5);
-//chart.resetZoom();
-//chart.update(dataExample);
+// OTHERS METHODS
+
+// chart.addZoom(-5);
+// chart.resetZoom();
+// chart.update(dataExample);
+
 ```

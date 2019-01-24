@@ -1,8 +1,6 @@
 const path = require('path');
 const webpack = require('webpack'); 
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const srcPath = './src';
 
@@ -13,9 +11,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
   },
   devtool: 'inline-source-map',
-  optimization:{
-    minimize: false,
-  },
   module: {
     rules: [
       {
