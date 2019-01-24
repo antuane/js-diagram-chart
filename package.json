@@ -1,0 +1,37 @@
+{
+  "name": "js-diagram-chart",
+  "description": "It is a simple prototype diagram chart based on hierarchy",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antuane/js-diagram-chart.git"
+  },
+  "keywords": [
+    "antuane",
+    "chart",
+    "diagram",
+    "javascript"
+  ],
+  "author": "Diogenes Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antuane/js-diagram-chart/issues"
+  },
+  "homepage": "https://github.com/antuane/js-diagram-chart/antuane-chart#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+  }
+}
